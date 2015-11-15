@@ -15,10 +15,11 @@ This will generate MODEL.pkl file.
 inputfilename contains list of tweets you wish to classify on.
 outputfilename is the file where class label: "0" for negative and "4" for positive corresponding to each tweet will be added. 
 
-Commands: <br>
-$ ./compile.sh <br>
-$ ./run.sh inputfilename outputfilename
-
+Commands (after you have MODEL.pkl): <br>
+```bash
+./compile.sh
+./run.sh inputfilename outputfilename
+```
 
 ###System Description:
 A sentiment categorization system using several Machine Learning Techniques for Tweets Data-set
